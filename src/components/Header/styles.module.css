@@ -1,0 +1,36 @@
+.wrapper {
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightContent {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    .elem {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btnSing {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        color: white;
+
+        display: flex;
+        gap: 10px;
+        background: rgba(162, 89, 255, 1);
+
+        padding: 15px 31px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
