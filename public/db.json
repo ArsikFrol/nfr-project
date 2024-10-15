@@ -3,12 +3,61 @@
         {
             "id": 1,
             "userName": "Animakid",
+            "purchasedCollections": [
+                "CryptoPunks",
+                "NodeMonkes"
+            ],
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
         },
         {
             "id": 2,
             "userName": "Animakid",
+            "purchasedCollections": [
+                "Bored Ape Yacht Club",
+                "CryptoPunks"
+            ],
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 3,
+            "userName": "Animakid",
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        }
+    ],
+    "collection": [
+        {
+            "id": 1,
+            "titleCollection": "CryptoPunks",
+            "collectionImg": [
+                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3274/image/v1",
+                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:5055/image/v1",
+                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:4164/image/v1",
+                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1"
+            ]
+        },
+        {
+            "id": 2,
+            "titleCollection": "Bored Ape Yacht Club",
+            "collectionImg": [
+                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7854/image/v1",
+                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:1845/image/v1",
+                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7471/image/v1",
+                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:5268/image/v1"
+            ]
+        },
+        {
+            "id": 3,
+            "titleCollection": "NodeMonkes",
+            "collectionImg": [
+                "https://lh3.googleusercontent.com/VBvrrdBOMeMtA15oKsnXbK_rbpYBwk3Fx0V9iHyQ2AOBliS0PL7jKLmszZojr1qVrsDLqN-t7WS-JqAkI9o7WXEUzEFlT0ixvCc",
+                "https://lh3.googleusercontent.com/33Z40Ek9x4UcdEdHATaHTeBAB66G3ftxAECpylX7CBUQJ7Tuve64inN0UEC47PhuOkVUZcYiFDpyRN_v8fSGLj37Ok3COyO1mGY",
+                "https://lh3.googleusercontent.com/cmVRAXczqoMzEYoXN5mxXxGI6GgRZrLWd3yF5waJKgup2VR6LKRTvsU4bcmjAO881ENbLW7Vg7lX3P4gB7Evk41q0vJguO2F7Gs",
+                "https://lh3.googleusercontent.com/-bs8KBJ8515gdHf0r97CSt2CN5VoDybvryawIRReXJ3Z1udUsULJ3JYLHvBsbK9tX6APPXvGe7hTZeGDB8Gp9hBfBRLl-amNyw"
+            ]
         }
     ]
 }
