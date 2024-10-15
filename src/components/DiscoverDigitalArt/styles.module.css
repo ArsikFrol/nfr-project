@@ -1,0 +1,116 @@
+.wrapper {
+    display: flex;
+    width: 1050px;
+    margin: 100px auto;
+    justify-content: space-between;
+    height: 565px;
+    cursor: default;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 510px;
+
+    .title {
+        width: 510px;
+        font-size: 67px;
+        font-weight: 600;
+        line-height: 73.7px;
+        color: white;
+    }
+
+    .desc {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35.2px;
+        color: white;
+    }
+
+    .btnGetStart {
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        background: rgba(162, 89, 255, 1);
+        gap: 10px;
+
+        width: 122px;
+        padding: 19px 52px;
+        border-radius: 20px;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        color: white;
+
+        >img {
+            background: rgba(162, 89, 255, 1);
+        }
+    }
+
+    .rowStatistics {
+        display: flex;
+        justify-content: space-between;
+
+        .elemStatistics {
+            width: 150px;
+            color: white;
+
+            .count {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 39.2px;
+            }
+
+            .titleStatistics {
+                font-size: 23.99px;
+                font-weight: 400;
+                line-height: 23.38px;
+            }
+        }
+    }
+}
+
+.rightContent {
+    background: rgba(59, 59, 59, 1);
+    height: 510px;
+    border-radius: 20px;
+
+    .titleRight {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30.8px;
+        color: white;
+
+        padding-left: 25px;
+        padding-top: 20px;
+
+        background: rgba(59, 59, 59, 1);
+    }
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: rgba(59, 59, 59, 1);
+
+    padding-top: 5px;
+
+    .userImg {
+        width: 24px;
+        height: 24px;
+        background: rgba(59, 59, 59, 1);
+
+        padding-left: 25px;
+    }
+
+    .userName {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: white;
+        background: rgba(59, 59, 59, 1);
+    }
+}

@@ -1,14 +1,14 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Header from '../components/Header/Header'
+import MainPage from '../pages/MainPage'
 
 type Props = {}
 
 const RouterComponent = React.memo(function RouterComponent(props: Props) {
 
     const router = createBrowserRouter([
-        { path: '*', element: <Header /> },/* 
+        { path: '*', element: <MainPage /> },/* 
         {path: '', element: } */
     ])
 
