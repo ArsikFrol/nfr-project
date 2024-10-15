@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
+import { Link } from 'react-router-dom'
 
 import logo from '../../images/logo.png'
 import titleLogo from '../../images/titleLogo.png'
@@ -12,10 +13,13 @@ const navHeader: Array<string> = ['Marketplace', 'Rankings', 'Connect a wallet']
 const Header = React.memo(function Header(props: Props) {
     return (
         <div className={styles.wrapper}>
-            <div style={{ cursor: 'pointer' }} className={styles.leftContent}>
-                <img style={{ marginRight: '10px' }} src={logo} alt="logo" />
-                <img style={{ marginBottom: '3px' }} src={titleLogo} alt="titleLogo" />
-            </div>
+            <Link to='/' style={{ textDecoration: 'none' }}>
+                <div style={{ cursor: 'pointer' }} className={styles.leftContent}>
+                    <img draggable="false" style={{ marginRight: '10px' }} src={logo} alt="logo" />
+                    <img draggable="false" style={{ marginBottom: '3px' }} src={titleLogo} alt="titleLogo" />
+                </div>
+            </Link>
+
             <div className={styles.rightContent}>
                 {
                     navHeader.map((navElem: string, index: number) => {
