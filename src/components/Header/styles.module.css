@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.leftContent {
+    cursor: pointer;
+}
+
 .rightContent {
     display: flex;
     align-items: center;

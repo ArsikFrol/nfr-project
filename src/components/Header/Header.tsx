@@ -14,7 +14,7 @@ const Header = React.memo(function Header(props: Props) {
     return (
         <div className={styles.wrapper}>
             <Link to='/' style={{ textDecoration: 'none' }}>
-                <div style={{ cursor: 'pointer' }} className={styles.leftContent}>
+                <div className={styles.leftContent}>
                     <img draggable="false" style={{ marginRight: '10px' }} src={logo} alt="logo" />
                     <img draggable="false" style={{ marginBottom: '3px' }} src={titleLogo} alt="titleLogo" />
                 </div>
