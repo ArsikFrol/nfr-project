@@ -1,6 +1,6 @@
 const defaultAllUser = []
 
-const allUcer = (state = defaultAllUser, action) => {
+const allUser = (state = defaultAllUser, action) => {
     switch (action.type) {
         case 'OPEN_SITE_USERS':
             return { ...state, users: action.payload }
@@ -11,4 +11,4 @@ const allUcer = (state = defaultAllUser, action) => {
     }
 }
 
-export default allUcer
+export default allUser

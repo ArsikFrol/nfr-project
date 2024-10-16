@@ -3,6 +3,7 @@
         {
             "id": 1,
             "userName": "Animakid",
+            "totalSales": 34.53,
             "purchasedCollections": [
                 "CryptoPunks",
                 "NodeMonkes"
@@ -12,6 +13,7 @@
         {
             "id": 2,
             "userName": "Animakid",
+            "totalSales": 34.53,
             "purchasedCollections": [
                 "Bored Ape Yacht Club",
                 "CryptoPunks"
@@ -21,9 +23,100 @@
         {
             "id": 3,
             "userName": "Animakid",
+            "totalSales": 34.53,
             "purchasedCollections": [
                 "NodeMonkes",
                 "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 4,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 5,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 6,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 7,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 8,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 9,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "NodeMonkes",
+                "Bored Ape Yacht Club"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 10,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "CryptoPunks",
+                "NodeMonkes"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 11,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "CryptoPunks",
+                "NodeMonkes"
+            ],
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 12,
+            "userName": "Animakid",
+            "totalSales": 34.53,
+            "purchasedCollections": [
+                "CryptoPunks",
+                "NodeMonkes"
             ],
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
         }

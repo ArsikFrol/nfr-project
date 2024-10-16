@@ -35,25 +35,25 @@ const TrendingCollection = React.memo(function TrendingCollection(props: Props) 
             <div className={styles.desc}>Checkout our weekly updated trending collection.</div>
             <div className={styles.rowCollection}>
                 {listNewUser ?
-                    listNewUser.map((objUser: any, index: number) => {
+                    listNewUser.slice(0, 3).map((objUser: any, index: number) => {
                         return (
                             <div key={index} className={styles.element}>
                                 <div className={styles.rowCollectionImage}>
-                                    <img src={objUser.collectionUser[0]} className={styles.collectionImg0} />
+                                    <img draggable='false' src={objUser.collectionUser[0]} className={styles.collectionImg0} />
                                     <div className={styles.imageTwo}>
-                                        <img src={objUser.collectionUser[1]} className={styles.collectionImg1} />
-                                        <img src={objUser.collectionUser[2]} className={styles.collectionImg2} />
+                                        <img draggable='false' src={objUser.collectionUser[1]} className={styles.collectionImg1} />
+                                        <img draggable='false' src={objUser.collectionUser[2]} className={styles.collectionImg2} />
                                         <div className={styles.btnPurple}>{objUser.countPurple}+</div>
                                     </div>
                                 </div>
                                 <div className={styles.titleCollection}>{objUser.titleCollection}</div>
                                 <div className={styles.user}>
-                                    <img className={styles.userImage} src={objUser.userImage} alt="" />
+                                    <img draggable='false' className={styles.userImage} src={objUser.userImage} alt="" />
                                     <div className={styles.nameUser}>{objUser.userName}</div>
                                 </div>
                             </div>
                         )
-                    }) : console.log('ошибка')
+                    }) : console.log()
                 }
             </div>
         </div>
