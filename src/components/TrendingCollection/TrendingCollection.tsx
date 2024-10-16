@@ -21,9 +21,9 @@ const TrendingCollection = React.memo(function TrendingCollection(props: Props) 
                     collectionUser: objCollection.collectionImg,
                     titleCollection: objCollection.titleCollection,
                     userName: objUser.userName,
-                    userImage: objUser.userImage
+                    userImage: objUser.userImage,
+                    countPurple: objCollection.collectionImg.length - 3
                 }
-
                 listNewUser.push(newObj)
             }
         }) : console.log()
@@ -43,7 +43,7 @@ const TrendingCollection = React.memo(function TrendingCollection(props: Props) 
                                     <div className={styles.imageTwo}>
                                         <img src={objUser.collectionUser[1]} className={styles.collectionImg1} />
                                         <img src={objUser.collectionUser[2]} className={styles.collectionImg2} />
-                                        <div className={styles.btnPurple}>5+</div>
+                                        <div className={styles.btnPurple}>{objUser.countPurple}+</div>
                                     </div>
                                 </div>
                                 <div className={styles.titleCollection}>{objUser.titleCollection}</div>
