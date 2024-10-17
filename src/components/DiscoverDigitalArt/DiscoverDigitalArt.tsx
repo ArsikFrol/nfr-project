@@ -18,7 +18,7 @@ const listStatistics: Array<statisticsInter> = [
     { count: 240, text: 'Artists' }
 ]
 
-const DiscoverDigitalArt = React.memo(function DiscoverDigitalArt(props: Props) {
+const DiscoverDigitalArt = (props: Props) => {
 
     const users = useSelector((state: any) => state.allUser.users)
 
@@ -59,6 +59,6 @@ const DiscoverDigitalArt = React.memo(function DiscoverDigitalArt(props: Props) 
             </div>
         </div>
     )
-})
+}
 
 export default DiscoverDigitalArt

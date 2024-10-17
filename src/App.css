@@ -1,6 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  background: rgba(43, 43, 43, 1);
   font-family: 'Work Sans';
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }

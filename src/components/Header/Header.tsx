@@ -10,7 +10,8 @@ type Props = {}
 
 const navHeader: Array<string> = ['Marketplace', 'Rankings', 'Connect a wallet']
 
-const Header = React.memo(function Header(props: Props) {
+const Header = (props: Props) => {
+
     return (
         <div className={styles.wrapper}>
             <Link to='/' style={{ textDecoration: 'none' }}>
@@ -32,6 +33,6 @@ const Header = React.memo(function Header(props: Props) {
             </div>
         </div>
     )
-})
+}
 
 export default Header

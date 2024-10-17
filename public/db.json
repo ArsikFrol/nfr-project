@@ -131,7 +131,9 @@
                 "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:4164/image/v1",
                 "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1",
                 "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1"
-            ]
+            ],
+            "price": 1.63,
+            "highestBid": 0.33
         },
         {
             "id": 2,
@@ -141,7 +143,9 @@
                 "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:1845/image/v1",
                 "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7471/image/v1",
                 "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:5268/image/v1"
-            ]
+            ],
+            "price": 1.63,
+            "highestBid": 0.33
         },
         {
             "id": 3,
@@ -151,7 +155,9 @@
                 "https://lh3.googleusercontent.com/33Z40Ek9x4UcdEdHATaHTeBAB66G3ftxAECpylX7CBUQJ7Tuve64inN0UEC47PhuOkVUZcYiFDpyRN_v8fSGLj37Ok3COyO1mGY",
                 "https://lh3.googleusercontent.com/cmVRAXczqoMzEYoXN5mxXxGI6GgRZrLWd3yF5waJKgup2VR6LKRTvsU4bcmjAO881ENbLW7Vg7lX3P4gB7Evk41q0vJguO2F7Gs",
                 "https://lh3.googleusercontent.com/-bs8KBJ8515gdHf0r97CSt2CN5VoDybvryawIRReXJ3Z1udUsULJ3JYLHvBsbK9tX6APPXvGe7hTZeGDB8Gp9hBfBRLl-amNyw"
-            ]
+            ],
+            "price": 1.63,
+            "highestBid": 0.33
         }
     ]
 }

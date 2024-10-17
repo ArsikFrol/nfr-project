@@ -2,11 +2,14 @@ import React from "react";
 import './App.css'
 
 import RouterComponent from "./router";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 
 function App() {
   const dispatch = useDispatch()
+
+  const users = useSelector((state: any) => state.allUser.users)
+  const collections = useSelector((state: any) => state.allUser.collection)
 
   React.useEffect(() => {
     axios.get('http://localhost:3001/user').then((data) => {
@@ -19,7 +22,7 @@ function App() {
 
   return (
     <>
-      <RouterComponent />
+      {users ? collections ? <RouterComponent /> : console.log('ошибка') : console.log('ошибка')}
     </>
   );
 }

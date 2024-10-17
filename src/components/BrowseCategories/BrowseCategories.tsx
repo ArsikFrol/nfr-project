@@ -18,7 +18,7 @@ interface categories {
     titleCategori: string
 }
 
-const BrowseCategories = React.memo(function BrowseCategories(props: Props) {
+const BrowseCategories = (props: Props) => {
 
     const listCategori: Array<categories> = [
         { id: 1, image: art, titleCategori: 'Art' },
@@ -48,6 +48,6 @@ const BrowseCategories = React.memo(function BrowseCategories(props: Props) {
             </div>
         </div>
     )
-})
+}
 
 export default BrowseCategories

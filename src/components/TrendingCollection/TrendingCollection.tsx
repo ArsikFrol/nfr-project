@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux'
 
 type Props = {}
 
-const TrendingCollection = React.memo(function TrendingCollection(props: Props) {
+const TrendingCollection = (props: Props) => {
 
     const users = useSelector((state: any) => state.allUser.users)
     const collections = useSelector((state: any) => state.allUser.collection)
@@ -13,8 +13,8 @@ const TrendingCollection = React.memo(function TrendingCollection(props: Props) 
     let listNewUser: any = []
     let listCollection: any = []
 
-    users ? users.map((objUser: any) => {
-        collections ? collections.map((objCollection: any) => {
+    users.map((objUser: any) => {
+        collections.map((objCollection: any) => {
             listCollection.push(objCollection.titleCollection)
             if (objUser.purchasedCollections[0] == objCollection.titleCollection) {
                 let newObj = {
@@ -26,15 +26,15 @@ const TrendingCollection = React.memo(function TrendingCollection(props: Props) 
                 }
                 listNewUser.push(newObj)
             }
-        }) : console.log()
-    }) : console.log()
+        })
+    })
 
     return (
         <div className={styles.wrapper}>
             <div className={styles.title}>Trending Collection</div>
             <div className={styles.desc}>Checkout our weekly updated trending collection.</div>
             <div className={styles.rowCollection}>
-                {listNewUser ?
+                {
                     listNewUser.slice(0, 3).map((objUser: any, index: number) => {
                         return (
                             <div key={index} className={styles.element}>
@@ -53,11 +53,11 @@ const TrendingCollection = React.memo(function TrendingCollection(props: Props) 
                                 </div>
                             </div>
                         )
-                    }) : console.log()
+                    })
                 }
             </div>
         </div>
     )
-})
+}
 
 export default TrendingCollection

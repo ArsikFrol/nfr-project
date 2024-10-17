@@ -4,10 +4,11 @@ import styles from './styles.module.css'
 import rocket from '../../images/rocket.png'
 
 import { useSelector } from 'react-redux'
+import Countdown from 'react-countdown'
 
 type Props = {}
 
-const TopCreators = React.memo(function TopCreators(props: Props) {
+const TopCreators = (props: Props) => {
 
     const users = useSelector((state: any) => state.allUser.users)
 
@@ -26,7 +27,7 @@ const TopCreators = React.memo(function TopCreators(props: Props) {
             </div>
             <div className={styles.rowCreators}>
                 {
-                    users ? users.slice(0, 12).map((objUser: any, index: number) => {
+                    users.slice(0, 12).map((objUser: any, index: number) => {
                         return (
                             <div key={objUser.id} className={styles.user}>
                                 <div className={styles.indexUser}>{index + 1}</div>
@@ -35,11 +36,11 @@ const TopCreators = React.memo(function TopCreators(props: Props) {
                                 <div className={styles.totalSales}>total Sales: <span className={styles.countTotal}>{objUser.totalSales} ETN</span></div>
                             </div>
                         )
-                    }) : console.log()
+                    })
                 }
             </div>
         </div>
     )
-})
+}
 
 export default TopCreators

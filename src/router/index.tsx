@@ -5,7 +5,7 @@ import MainPage from '../pages/MainPage'
 
 type Props = {}
 
-const RouterComponent = React.memo(function RouterComponent(props: Props) {
+const RouterComponent = (props: Props) => {
 
     const router = createBrowserRouter([
         { path: '*', element: <MainPage /> },/* 
@@ -17,6 +17,6 @@ const RouterComponent = React.memo(function RouterComponent(props: Props) {
             <RouterProvider router={router} />
         </>
     )
-})
+}
 
 export default RouterComponent
