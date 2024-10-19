@@ -30,8 +30,6 @@ const DiscoverMore = (props: Props) => {
         })
     })
 
-    console.log(listNewUser)
-
     return (
         <div className={styles.wrapper}>
             <div className={styles.topContent}>

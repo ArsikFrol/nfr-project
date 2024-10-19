@@ -7,6 +7,8 @@ import TopCreators from '../components/TopCreators/TopCreators'
 import BrowseCategories from '../components/BrowseCategories/BrowseCategories'
 import DiscoverMore from '../components/DiscoverMore/DiscoverMore'
 import HowInWorks from '../components/HowInWorks/HowItWorks'
+import WeeklyDigest from '../components/WeeklyDigest/WeeklyDigest'
+import MagicMashrooms from '../components/MagicMashrooms/MagicMashrooms'
 
 type Props = {}
 
@@ -19,7 +21,9 @@ const MainPage = (props: Props) => {
             <TopCreators />
             <BrowseCategories />
             <DiscoverMore />
+            <MagicMashrooms />
             <HowInWorks />
+            <WeeklyDigest />
         </div>
     )
 }

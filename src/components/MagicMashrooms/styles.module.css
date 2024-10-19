@@ -1,0 +1,128 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+
+    position: relative;
+    z-index: 1;
+}
+
+.bg {
+    user-select: none;
+    width: 100%;
+    height: 700px;
+}
+
+.leftContent {
+    position: absolute;
+    left: 170px;
+    top: 430px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+
+    .user {
+        cursor: pointer;
+        background: rgba(59, 59, 59, 1);
+        width: 110px;
+        padding: 15px 25px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+
+        display: flex;
+        gap: 10px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: rgba(255, 255, 255, 1);
+
+        >img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 51px;
+        font-weight: 600;
+        line-height: 56.1px;
+        color: white;
+    }
+
+    .btn {
+        cursor: pointer;
+        background: white;
+        display: flex;
+        gap: 10px;
+        width: 96px;
+        padding: 19px 50px;
+        border-radius: 20px;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        color: rgba(43, 43, 43, 1);
+    }
+}
+
+.rightContent {
+    padding-top: 20px;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.5);
+
+    position: absolute;
+    top: 500px;
+    z-index: 10;
+    left: 910px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    .textTimer {
+        margin-right: 170px;
+
+        font-family: 'Space Mono';
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        color: white;
+    }
+
+    >span {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.6px;
+        color: white;
+
+        font-family: 'Space Mono';
+
+        padding: 10px 30px 10px;
+    }
+
+    .nameCount {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        color: white;
+
+        font-family: 'Space Mono';
+
+        display: flex;
+        padding-bottom: 30px;
+
+        .Seconds {
+            margin-right: 25px;
+            margin-left: 23px;
+        }
+
+        .Hours {
+            margin-right: 30px;
+            margin-left: 40px;
+        }
+    }
+}

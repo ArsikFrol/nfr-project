@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      {users ? collections ? <RouterComponent /> : console.log('ошибка') : console.log('ошибка')}
+      {users ? collections ? <RouterComponent /> : console.log() : console.log()}
     </>
   );
 }

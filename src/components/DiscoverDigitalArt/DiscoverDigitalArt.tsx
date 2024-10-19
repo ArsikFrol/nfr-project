@@ -45,7 +45,7 @@ const DiscoverDigitalArt = (props: Props) => {
                 <img draggable="false" src={DiscoverDigitalArtImg} alt="DiscoverDigitalArtImg" />
                 <div className={styles.titleRight}>Space Walking</div>
                 <div className={styles.user}>
-                    {users ?
+                    {
                         users.slice(0, 1).map((obj: any) => {
                             return (
                                 <div key={obj.id} className={styles.user}>
@@ -53,7 +53,7 @@ const DiscoverDigitalArt = (props: Props) => {
                                     <div className={styles.userName}>{obj.userName}</div>
                                 </div>
                             )
-                        }) : console.log()
+                        })
                     }
                 </div>
             </div>
