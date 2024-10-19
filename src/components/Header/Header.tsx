@@ -8,7 +8,16 @@ import userLogo from '../../images/userLogo.png'
 
 type Props = {}
 
-const navHeader: Array<string> = ['Marketplace', 'Rankings', 'Connect a wallet']
+interface navInter {
+    text: string,
+    link: string
+}
+
+const navHeader: Array<navInter> = [
+    { text: 'Marketplace', link: '/marketplace' },
+    { text: 'Rankings', link: '/rankings' },
+    { text: 'Connect a wallet', link: '/connectWallet' }
+]
 
 const Header = (props: Props) => {
 
@@ -23,9 +32,9 @@ const Header = (props: Props) => {
 
             <div className={styles.rightContent}>
                 {
-                    navHeader.map((navElem: string, index: number) => {
+                    navHeader.map((navElem: navInter, index: number) => {
                         return (
-                            <div key={index} className={styles.elem}>{navElem}</div>
+                            <div key={index} className={styles.elem}><Link to={navElem.link} style={{ textDecoration: 'none', color: 'white' }}>{navElem.text}</Link></div>
                         )
                     })
                 }

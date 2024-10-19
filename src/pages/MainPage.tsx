@@ -14,7 +14,7 @@ type Props = {}
 
 const MainPage = (props: Props) => {
     return (
-        <div style={{ background: 'rgba(43, 43, 43, 1)' }}>
+        <div style={{ background: 'rgba(43, 43, 43, 1)', paddingBottom: '100px' }}>
             <Header />
             <DiscoverDigitalArt />
             <TrendingCollection />
