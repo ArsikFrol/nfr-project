@@ -1,0 +1,82 @@
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+    background: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightContent {
+    width: 425px;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.desc {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.6px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.btn {
+    width: 425px;
+    position: relative;
+
+    >input {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: rgba(43, 43, 43, 1);
+
+        padding: 18px 220px 18px 20px;
+        border-radius: 20px;
+        border: none;
+
+        width: 185px;
+        outline: none;
+    }
+}
+
+.btnSubscridle {
+    cursor: pointer;
+
+    position: absolute;
+    left: 217px;
+    top: -1px;
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 105px;
+
+    padding: 19px 52px;
+    background: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: white;
+
+    >img {
+        width: 20px;
+        height: 20px;
+    }
+}
