@@ -4,6 +4,7 @@ import styles from './styles.module.css'
 import wallet from '../../images/HowItWorks/wallet.png'
 import collection from '../../images/HowItWorks/collection.png'
 import start from '../../images/HowItWorks/start.png'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -30,11 +31,14 @@ const HowItWorks = React.memo(function HowItWorks(props: Props) {
                 {
                     listCart.map((obj: cart) => {
                         return (
-                            <div className={styles.cart} key={obj.id}>
-                                <img draggable='false' src={obj.image} alt="" />
-                                <div className={styles.titleCart}>{obj.title}</div>
-                                <div className={styles.descCart}>{obj.desc}</div>
-                            </div>
+                            <Link style={{ textDecoration: 'none' }} to={obj.title == 'Setup Your wallet' ? '/connectWallet' : ''}>
+                                <div className={styles.cart} key={obj.id}>
+                                    <img draggable='false' src={obj.image} alt="" />
+                                    <div className={styles.titleCart}>{obj.title}</div>
+                                    <div className={styles.descCart}>{obj.desc}</div>
+                                </div>
+                            </Link>
+
                         )
                     })
                 }
