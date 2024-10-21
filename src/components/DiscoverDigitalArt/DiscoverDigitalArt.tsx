@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from './styles.module.css'
+import { Link } from 'react-router-dom'
 
 import rocket from '../../images/rocket.png'
 import DiscoverDigitalArtImg from '../../images/DiscoverDigitalArtImg.png'
 import { useSelector } from 'react-redux'
+
 
 type Props = {}
 
@@ -47,11 +49,14 @@ const DiscoverDigitalArt = (props: Props) => {
                 <div className={styles.user}>
                     {
                         users.slice(0, 1).map((obj: any) => {
+                            const to: string = `/user${obj.id}`
                             return (
-                                <div key={obj.id} className={styles.user}>
-                                    <img draggable="false" className={styles.userImg} src={obj.userImage} />
-                                    <div className={styles.userName}>{obj.userName}</div>
-                                </div>
+                                <Link onClick={() => window.scroll({ top: 0 })} key={obj.id} to={to} style={{ textDecoration: 'none', color: 'white' }}>
+                                    <div className={styles.user}>
+                                        <img draggable="false" className={styles.userImg} src={obj.userImage} />
+                                        <div className={styles.userName}>{obj.userName}</div>
+                                    </div>
+                                </Link>
                             )
                         })
                     }

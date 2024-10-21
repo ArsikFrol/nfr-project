@@ -3,6 +3,9 @@ import styles from './styles.module.css'
 
 import eye from '../../images/eye.png'
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { userInter } from '../UserCart/UserCart';
+import CartElem from '../UserCart/CartElem';
 
 type Props = {}
 
@@ -13,20 +16,39 @@ const DiscoverMore = (props: Props) => {
     let listNewUser: any = []
     let listCollection: any = []
 
-    users.map((objUser: any) => {
+    users.slice(4, 7).map((objUser: any) => {
         collections.map((objCollection: any) => {
             listCollection.push(objCollection.titleCollection)
             if (objUser.purchasedCollections[0] == objCollection.titleCollection) {
                 let newObj = {
+                    id: objUser.id,
                     collectionUser: objCollection.collectionImg,
                     titleCollection: objCollection.titleCollection,
                     userName: objUser.userName,
                     userImage: objUser.userImage,
                     price: objCollection.price,
-                    highestBid: objCollection.highestBid
+                    highestBid: objCollection.highestBidAverage
                 }
                 listNewUser.push(newObj)
             }
+        })
+    })
+
+    let listUser: any = []
+
+    listNewUser.map((obj: any) => {
+        Object.keys(obj.collectionUser).map((key: string) => {
+            let newObj = {
+                id: obj.id,
+                collectionImage: obj.collectionUser[key].image,
+                collectionHighestBid: obj.collectionUser[key].highestBid,
+                collectionPrice: obj.collectionUser[key].price,
+                collectionTitle: obj.collectionUser[key].titleNFT,
+                userImage: obj.userImage,
+                userName: obj.userName
+            }
+
+            listUser.push(newObj)
         })
     })
 
@@ -42,26 +64,9 @@ const DiscoverMore = (props: Props) => {
             </div>
             <div className={styles.rowCart}>
                 {
-                    listNewUser.slice(0, 3).map((obj: any, index: number) => {
+                    listUser.slice(0, 3).map((obj: any, index: number) => {
                         return (
-                            <div className={styles.cart} key={index}>
-                                <img draggable='false' className={styles.collectionUser0} src={obj.collectionUser[1]} alt="" />
-                                <div className={styles.titleCart}>{obj.titleCollection}</div>
-                                <div className={styles.user}>
-                                    <img draggable='false' src={obj.userImage} alt="" />
-                                    <div className={styles.userName}>{obj.userName}</div>
-                                </div>
-                                <div className={styles.bottonContent}>
-                                    <div className={styles.leftContent}>
-                                        <div className={styles.textCartPrice}>Price</div>
-                                        <div className={styles.countCart}>{obj.price} ETH</div>
-                                    </div>
-                                    <div className={styles.rightContent}>
-                                        <div className={styles.textCartBid}>Highest Bid</div>
-                                        <div className={styles.countCart}>{obj.highestBid} wETH</div>
-                                    </div>
-                                </div>
-                            </div>
+                            <CartElem id={obj.id} discover key={index} highestBid={obj.collectionHighestBid} image={obj.collectionImage} price={obj.collectionPrice} titleNFT={obj.collectionTitle} userImage={obj.userImage} userName={obj.userName} />
                         )
                     })
                 }

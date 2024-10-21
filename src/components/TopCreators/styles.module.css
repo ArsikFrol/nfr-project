@@ -102,6 +102,7 @@
             font-weight: 400;
             line-height: 22.4px;
             color: rgba(133, 133, 132, 1);
+            padding-bottom: 20px;
 
             .countTotal {
                 background: rgba(59, 59, 59, 1);

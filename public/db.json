@@ -3,161 +3,1271 @@
         {
             "id": 1,
             "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "CryptoPunks",
-                "NodeMonkes"
+                "Azuki Elementals",
+                "NodeMonkes",
+                "Lil Pudgys"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d:7366/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-3"
+                    },
+                    "id4": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-3"
+                    },
+                    "id5": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-3"
+                    },
+                    "id6": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-3"
+                    },
+                    "id7": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-3"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 2,
-            "userName": "Animakid",
+            "userName": "Keepitreal",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "Bored Ape Yacht Club",
+                "Clone X",
                 "CryptoPunks"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 3,
-            "userName": "Animakid",
+            "userName": "DigiLab",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "CryptoNinja Partners",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 4,
-            "userName": "Animakid",
+            "userName": "GravityOne",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "Mocaverse",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 5,
-            "userName": "Animakid",
+            "userName": "Juanie",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "Creepz by OVERLORD",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 6,
-            "userName": "Animakid",
+            "userName": "BlueWhale",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "Doodles",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 7,
-            "userName": "Animakid",
+            "userName": "Mr Fox",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "MoonCats",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 8,
-            "userName": "Animakid",
+            "userName": "Shroomie",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "Lil Pudgys",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 9,
-            "userName": "Animakid",
+            "userName": "Robotica",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
-                "NodeMonkes",
+                "Quantum Cats",
                 "Bored Ape Yacht Club"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 10,
-            "userName": "Animakid",
+            "userName": "RustyRobot",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
                 "CryptoPunks",
                 "NodeMonkes"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 11,
-            "userName": "Animakid",
+            "userName": "Dotgu",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
                 "CryptoPunks",
                 "NodeMonkes"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         },
         {
             "id": 12,
-            "userName": "Animakid",
+            "userName": "Ghiblier",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
             "purchasedCollections": [
                 "CryptoPunks",
                 "NodeMonkes"
             ],
-            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+            "cartUser": {
+                "idCode": "0xc0E3...B79C",
+                "follow": false,
+                "volume": 250,
+                "NFTsSold": 50,
+                "followers": 3000,
+                "bio": "The internet's friendliest designer kid.",
+                "links": [
+                    "https://www.youtube.com/",
+                    "https://www.google.ru/",
+                    "https://vk.com/"
+                ],
+                "createdNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                },
+                "ownedNFT": {
+                    "id1": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    },
+                    "id2": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-2"
+                    },
+                    "id3": {
+                        "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                        "price": 1.63,
+                        "highestBid": 0.33,
+                        "titleNFT": "ID-1"
+                    }
+                }
+            }
         }
     ],
     "collection": [
         {
             "id": 1,
             "titleCollection": "CryptoPunks",
-            "collectionImg": [
-                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3274/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:5055/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:4164/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1"
-            ],
-            "price": 1.63,
-            "highestBid": 0.33
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3274/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:5055/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:4164/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                },
+                "id5": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb:3682/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-5"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
         },
         {
             "id": 2,
             "titleCollection": "Bored Ape Yacht Club",
-            "collectionImg": [
-                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7854/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:1845/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7471/image/v1",
-                "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:5268/image/v1"
-            ],
-            "price": 1.63,
-            "highestBid": 0.33
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7854/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:1845/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:7471/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d:5268/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
         },
         {
             "id": 3,
             "titleCollection": "NodeMonkes",
-            "collectionImg": [
-                "https://lh3.googleusercontent.com/VBvrrdBOMeMtA15oKsnXbK_rbpYBwk3Fx0V9iHyQ2AOBliS0PL7jKLmszZojr1qVrsDLqN-t7WS-JqAkI9o7WXEUzEFlT0ixvCc",
-                "https://lh3.googleusercontent.com/33Z40Ek9x4UcdEdHATaHTeBAB66G3ftxAECpylX7CBUQJ7Tuve64inN0UEC47PhuOkVUZcYiFDpyRN_v8fSGLj37Ok3COyO1mGY",
-                "https://lh3.googleusercontent.com/cmVRAXczqoMzEYoXN5mxXxGI6GgRZrLWd3yF5waJKgup2VR6LKRTvsU4bcmjAO881ENbLW7Vg7lX3P4gB7Evk41q0vJguO2F7Gs",
-                "https://lh3.googleusercontent.com/-bs8KBJ8515gdHf0r97CSt2CN5VoDybvryawIRReXJ3Z1udUsULJ3JYLHvBsbK9tX6APPXvGe7hTZeGDB8Gp9hBfBRLl-amNyw"
-            ],
-            "price": 1.63,
-            "highestBid": 0.33
+            "collectionImg": {
+                "id1": {
+                    "image": "https://lh3.googleusercontent.com/VBvrrdBOMeMtA15oKsnXbK_rbpYBwk3Fx0V9iHyQ2AOBliS0PL7jKLmszZojr1qVrsDLqN-t7WS-JqAkI9o7WXEUzEFlT0ixvCc",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://lh3.googleusercontent.com/33Z40Ek9x4UcdEdHATaHTeBAB66G3ftxAECpylX7CBUQJ7Tuve64inN0UEC47PhuOkVUZcYiFDpyRN_v8fSGLj37Ok3COyO1mGY",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://lh3.googleusercontent.com/cmVRAXczqoMzEYoXN5mxXxGI6GgRZrLWd3yF5waJKgup2VR6LKRTvsU4bcmjAO881ENbLW7Vg7lX3P4gB7Evk41q0vJguO2F7Gs",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://lh3.googleusercontent.com/-bs8KBJ8515gdHf0r97CSt2CN5VoDybvryawIRReXJ3Z1udUsULJ3JYLHvBsbK9tX6APPXvGe7hTZeGDB8Gp9hBfBRLl-amNyw",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 4,
+            "titleCollection": "Quantum Cats",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://lh3.googleusercontent.com/I8z3WHb4sVKzvBFVgRyfECub2sR-ngStkZo1YHHQE8iaZfSbEo7FO4uJSNENqxVBKaXDuXh3-d6LMsp8l1I2SupvRcB4rgZ_6Uk",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://lh3.googleusercontent.com/I8z3WHb4sVKzvBFVgRyfECub2sR-ngStkZo1YHHQE8iaZfSbEo7FO4uJSNENqxVBKaXDuXh3-d6LMsp8l1I2SupvRcB4rgZ_6Uk",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://lh3.googleusercontent.com/fCsl51eisp59-9ooV_tfeR9IFtByDL7DttpOHPFiipTdwjgpN3LQSxPS6jUJzNk-H08b8yrLqfAUn_4DSB2-_qcBGGapeERwgEY",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://lh3.googleusercontent.com/PeUm5gfX4V6qaf5P57S5LmbjNba0DFVNXr59MkFQK8QQhjhAD1YJxaeuRcTewZo4lZTACxuHmQkbH4PhHFGm2X3RAedUQ35s1U0",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                },
+                "id5": {
+                    "image": "https://lh3.googleusercontent.com/-wAItH4nlew4ILVLmVLn513bw6TPNNn5inUrcx-0ZxmpVUlEsCSE_IIDQpRJALKHvq75peZCOtHbPNIeCKhj4PgMTYL5XvOpkrs",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-5"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 5,
+            "titleCollection": "Lil Pudgys",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:10543/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:22182/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:18868/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:14495/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                },
+                "id5": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x524cab2ec69124574082676e6f654a18df49a048:8377/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-5"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 6,
+            "titleCollection": "MoonCats",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69:3313/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69:25009/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69:8476/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 7,
+            "titleCollection": "Doodles",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e:7746/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e:9793/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e:5735/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e:3778/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 8,
+            "titleCollection": "Creepz by OVERLORD",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d:7366/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d:5440/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d:8170/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d:1206/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 9,
+            "titleCollection": "Mocaverse",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x59325733eb952a92e069c87f0a6168b29e80627f:1280/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x59325733eb952a92e069c87f0a6168b29e80627f:6319/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x59325733eb952a92e069c87f0a6168b29e80627f:3252/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x59325733eb952a92e069c87f0a6168b29e80627f:3187/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 10,
+            "titleCollection": "Pirate Nation - Founder's Pirates",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x1b41d54b3f8de13d58102c50d7431fd6aa1a2c48:1767/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x1b41d54b3f8de13d58102c50d7431fd6aa1a2c48:3171/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x1b41d54b3f8de13d58102c50d7431fd6aa1a2c48:4639/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x1b41d54b3f8de13d58102c50d7431fd6aa1a2c48:2471/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 11,
+            "titleCollection": "Bitcoin Frogs",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://lh3.googleusercontent.com/N8sOknyyvdo3BQu_1s2CB-b-sCBL4iM0zjqB33t-QYoC-AcFk2j9GAeUd4Gy2n640vDXyP7rtrvrcQBYLqyPbsPEwz01BQOZYVs",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://lh3.googleusercontent.com/5UrhHlZlSjVXKq--B_uCIyZskFDsA2YkylIp-otznft3PfQSFCy0sDnybQtbj6WVDSkZxdkmGTRCg5qDZplJl9hcqjyz28wxynI",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://lh3.googleusercontent.com/UOZtMAooP1oJnrJmktl10OS3jrUclJfBK9_ffoXu8cOqxZfL-4sIRooFN8J2K8bctLOxaTF3ZuM-Jm7--Qos45lpX6SBx2qGHIc",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://lh3.googleusercontent.com/-_PZ57LQJq87SGfs3kx_6NrKPcLud1h6IA3mjGqQwnKlu8hgwiTtBKOgLRaFJyR07P8LBv8CrJZCbMYxeZwY7bKscdLz85hcgA",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 12,
+            "titleCollection": "The Potatoz",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:3994/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:9394/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:1301/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:1110/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 13,
+            "titleCollection": "CryptoNinja Partners",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x138a5c693279b6cd82f48d4bef563251bc15adce:26640/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x138a5c693279b6cd82f48d4bef563251bc15adce:14413/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x138a5c693279b6cd82f48d4bef563251bc15adce:23898/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x138a5c693279b6cd82f48d4bef563251bc15adce:25529/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 14,
+            "titleCollection": "Clone X",
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:13159/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:12671/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:16229/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            },
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33
+        },
+        {
+            "id": 15,
+            "titleCollection": "Azuki Elementals",
+            "priceAverage": 1.63,
+            "highestBidAverage": 0.33,
+            "collectionImg": {
+                "id1": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e:18149/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-1"
+                },
+                "id2": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e:9279/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-2"
+                },
+                "id3": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e:14559/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-3"
+                },
+                "id4": {
+                    "image": "https://api.reservoir.tools/redirect/tokens/0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e:15034/image/v1",
+                    "price": 1.63,
+                    "highestBid": 0.33,
+                    "titleNFT": "ID-4"
+                }
+            }
         }
     ]
 }

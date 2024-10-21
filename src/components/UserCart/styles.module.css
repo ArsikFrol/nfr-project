@@ -1,0 +1,396 @@
+.wrapper {
+    position: relative;
+}
+
+.userImage {
+    position: absolute;
+    left: 80px;
+    top: 400px;
+}
+
+.userImage {
+    width: 120px;
+    height: 120px;
+}
+
+.desc {
+    width: 1050px;
+    margin: 70px auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    .leftContent {
+
+        .userName {
+            font-size: 51px;
+            font-weight: 600;
+            line-height: 56.2px;
+            color: white;
+
+            padding-bottom: 40px;
+        }
+
+        .rowStat {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            >div {
+                display: flex;
+                flex-direction: column;
+
+                .count {
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 39.2px;
+                    color: white;
+
+                    padding-bottom: 5px;
+                    height: 30px;
+                }
+
+                .titleStat {
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 35.2px;
+                    color: white;
+
+                    height: 30px;
+                }
+            }
+        }
+
+        .bio {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+
+            .titleBio {
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 35.2px;
+                color: rgba(133, 133, 132, 1);
+
+                font-family: 'Space Mono';
+            }
+
+            .bioText {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 35.2px;
+                color: white;
+            }
+        }
+
+        .link {
+            .titleLink {
+                margin-top: 40px;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 35.2px;
+                color: rgba(133, 133, 132, 1);
+
+                font-family: 'Space Mono';
+                padding-bottom: 10px;
+            }
+
+            .imageLinks {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                >a {
+                    >img {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+    .rightContent {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        height: 60px;
+
+        .code {
+            cursor: pointer;
+            padding: 19px 23px;
+
+            display: flex;
+            gap: 5px;
+            align-items: center;
+
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.4px;
+            color: white;
+
+            background: rgba(162, 89, 255, 1);
+            border: none;
+            border-radius: 20px;
+        }
+
+        .btnFollow {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.4px;
+            color: white;
+
+            border: 1px solid rgba(162, 89, 255, 1);
+            border-radius: 20px;
+
+            padding: 18px 32px;
+
+            >img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .btnFollowTrue {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.4px;
+            color: white;
+
+            background: rgba(162, 89, 255, 1);
+            border: 1px solid rgba(162, 89, 255, 1);
+            border-radius: 20px;
+
+            padding: 18px 32px;
+
+            >img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+
+/* CollectionCart */
+
+.wrapperCollection {
+    border-top: 1px solid rgba(59, 59, 59, 1);
+    background: rgba(59, 59, 59, 1);
+
+    padding-bottom: 100px;
+
+    .conteinetRow {
+        background: rgba(43, 43, 43, 1);
+    }
+
+    .rowSort {
+        width: 1050px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .sortElem {
+            cursor: pointer;
+            width: 350px;
+            text-align: center;
+
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 30.8px;
+            color: rgba(133, 133, 132, 1);
+
+            .countSort {
+
+                border-radius: 20px;
+                padding: 10px 15px;
+
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.4px;
+                color: white;
+
+                background: rgba(59, 59, 59, 1);
+            }
+
+        }
+
+        .sortElemActiv {
+            cursor: pointer;
+            width: 350px;
+            text-align: center;
+
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 30.8px;
+            color: white;
+
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(133, 133, 132, 1);
+
+            .countSort {
+
+                border-radius: 20px;
+                padding: 10px 15px;
+
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.4px;
+                color: white;
+
+                background: rgba(133, 133, 132, 1);
+            }
+        }
+    }
+
+    .containerNFT {
+        width: 1050px;
+        margin: 70px auto 0;
+
+        display: grid;
+        justify-content: space-between;
+        row-gap: 20px;
+        grid-template-columns: repeat(3, 330px);
+        grid-template-rows: repeat(1, 470px);
+    }
+}
+
+
+/* CartElem */
+
+.wrapperDiscrover {
+    width: 330px;
+    height: 470px;
+
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 1);
+
+    >img {
+        width: 330px;
+        height: 295px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+.wrapperElem {
+    width: 330px;
+    height: 470px;
+
+    border-radius: 20px;
+    background: rgba(43, 43, 43, 1);
+
+    >img {
+        width: 330px;
+        height: 295px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+.titleCart {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: white;
+
+    padding: 10px 0 10px 30px;
+}
+
+.user {
+    cursor: pointer;
+    width: 200px;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    padding: 15px 0 10px 30px;
+
+    >img {
+        width: 24px;
+        height: 24px;
+    }
+
+    >span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: white;
+
+        font-family: 'Space Mono';
+    }
+}
+
+.bottomContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 270px;
+    margin: 0 auto;
+
+    padding: 5px 0 0 0;
+
+    .leftContent {
+        display: flex;
+        flex-direction: column;
+
+        .titleCount {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 13.2px;
+            color: rgba(133, 133, 132, 1);
+
+            font-family: 'Space Mono';
+            padding-bottom: 5px;
+        }
+
+        .count {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            color: white;
+
+            font-family: 'Space Mono';
+        }
+    }
+
+    .rightContent {
+        display: flex;
+        flex-direction: column;
+
+        .titleCount {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 13.2px;
+            color: rgba(133, 133, 132, 1);
+
+            font-family: 'Space Mono';
+            padding-bottom: 5px;
+        }
+
+        .count {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            color: white;
+
+            font-family: 'Space Mono';
+        }
+    }
+}

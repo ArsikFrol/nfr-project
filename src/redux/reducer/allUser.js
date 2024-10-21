@@ -1,4 +1,6 @@
-const defaultAllUser = []
+const defaultAllUser = [
+
+]
 
 const allUser = (state = defaultAllUser, action) => {
     switch (action.type) {

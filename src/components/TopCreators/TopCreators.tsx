@@ -5,6 +5,7 @@ import rocket from '../../images/rocket.png'
 
 import { useSelector } from 'react-redux'
 import Countdown from 'react-countdown'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -28,13 +29,16 @@ const TopCreators = (props: Props) => {
             <div className={styles.rowCreators}>
                 {
                     users.slice(0, 12).map((objUser: any, index: number) => {
+                        const to: string = `/user${objUser.id}`
                         return (
-                            <div key={objUser.id} className={styles.user}>
-                                <div className={styles.indexUser}>{index + 1}</div>
-                                <img draggable='false' className={styles.userImage} src={objUser.userImage} />
-                                <div className={styles.userName}>{objUser.userName}</div>
-                                <div className={styles.totalSales}>total Sales: <span className={styles.countTotal}>{objUser.totalSales} ETN</span></div>
-                            </div>
+                            <Link onClick={() => window.scroll({ top: 0 })} key={objUser.id} to={to} style={{ textDecoration: 'none', color: 'white' }}>
+                                <div className={styles.user}>
+                                    <div className={styles.indexUser}>{index + 1}</div>
+                                    <img draggable='false' className={styles.userImage} src={objUser.userImage} />
+                                    <div className={styles.userName}>{objUser.userName}</div>
+                                    <div className={styles.totalSales}>total Sales: <span className={styles.countTotal}>{objUser.totalSales} ETN</span></div>
+                                </div>
+                            </Link>
                         )
                     })
                 }
