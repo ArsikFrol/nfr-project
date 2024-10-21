@@ -38,7 +38,7 @@ const Header = (props: Props) => {
                         )
                     })
                 }
-                <div className={styles.btnSing}><img style={{ background: 'rgba(162, 89, 255, 1)' }} src={userLogo} alt="userLogo" />Sing Up</div>
+                <Link style={{ textDecoration: 'none' }} to='/singIn'><div className={styles.btnSing}><img style={{ background: 'rgba(162, 89, 255, 1)' }} src={userLogo} alt="userLogo" />Sing Up</div></Link>
             </div>
         </div>
     )

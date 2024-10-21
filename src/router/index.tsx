@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MainPage from '../pages/MainPage'
 import ConnectWalletPage from '../pages/ConnectWalletPage'
 import UserCartPage from '../pages/UserCartPage'
+import SingInPage from '../pages/SingInPage'
 
 type Props = {}
 
@@ -12,6 +13,7 @@ const RouterComponent = (props: Props) => {
     const router = createBrowserRouter([
         { path: '*', element: <MainPage /> },
         { path: '/connectWallet', element: <ConnectWalletPage /> },
+        { path: '/singIn', element: <SingInPage /> },
         { path: '/user1', element: <UserCartPage index={1} /> },
         { path: '/user2', element: <UserCartPage index={2} /> },
         { path: '/user3', element: <UserCartPage index={3} /> },
