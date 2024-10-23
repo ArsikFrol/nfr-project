@@ -18,8 +18,6 @@ type Props = {
 
 const CartElem = React.memo(function CartElem(props: Props) {
     let to = `/user${props.id}`
-    console.log(to)
-
     return (
         <div className={props.discover ? styles.wrapperDiscrover : styles.wrapperElem}>
             <img draggable='false' src={props.image} />

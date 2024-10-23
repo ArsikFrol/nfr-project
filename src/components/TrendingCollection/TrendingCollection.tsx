@@ -31,8 +31,6 @@ const TrendingCollection = (props: Props) => {
 
     })
 
-    /* console.log(users) */
-
     return (
         <div className={styles.wrapper}>
             <div className={styles.title}>Trending Collection</div>

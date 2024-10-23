@@ -1269,5 +1269,209 @@
                 }
             }
         }
+    ],
+    "soldNFT": [
+        {
+            "id": 1,
+            "soldIdUser": 1,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 2,
+            "soldIdUser": 2,
+            "titleNFT": "pop",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 3,
+            "soldIdUser": 3,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 4,
+            "soldIdUser": 4,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 5,
+            "soldIdUser": 5,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 6,
+            "soldIdUser": 6,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 7,
+            "soldIdUser": 7,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 8,
+            "soldIdUser": 8,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 9,
+            "soldIdUser": 9,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 10,
+            "soldIdUser": 10,
+            "titleNFT": "Wizard #2071",
+            "nftImage": "https://lh3.googleusercontent.com/h74Qt5GZ3LTZgPpaYYFh_tax4g_-P0Uyd4KnGRWcljevgr5evV1d0e4SjR_GELBmR5N7az6DFyUYYsfJsUguIR3C1QY2KcyQMCu2",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        }
+    ],
+    "soldCollections": [
+        {
+            "id": 1,
+            "soldIdUser": 1,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 2,
+            "soldIdUser": 2,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 3,
+            "soldIdUser": 3,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 4,
+            "soldIdUser": 4,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 5,
+            "soldIdUser": 5,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 6,
+            "soldIdUser": 6,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 7,
+            "soldIdUser": 7,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 8,
+            "soldIdUser": 8,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 9,
+            "soldIdUser": 9,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        },
+        {
+            "id": 10,
+            "soldIdUser": 10,
+            "titleCollection": "The Weirdo Ghost Gang",
+            "nftImage": "https://api.reservoir.tools/redirect/tokens/0x9401518f4ebba857baa879d9f76e1cc8b31ed197:33/image/v1",
+            "price": 1.64,
+            "highestBid": 0.33,
+            "userName": "Animakid",
+            "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png"
+        }
     ]
 }

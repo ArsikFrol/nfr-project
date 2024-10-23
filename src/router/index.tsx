@@ -5,6 +5,7 @@ import MainPage from '../pages/MainPage'
 import ConnectWalletPage from '../pages/ConnectWalletPage'
 import UserCartPage from '../pages/UserCartPage'
 import SingInPage from '../pages/SingInPage'
+import MarketplacePage from '../pages/MarketplacePage'
 
 type Props = {}
 
@@ -14,6 +15,7 @@ const RouterComponent = (props: Props) => {
         { path: '*', element: <MainPage /> },
         { path: '/connectWallet', element: <ConnectWalletPage /> },
         { path: '/singIn', element: <SingInPage /> },
+        { path: '/marketplace', element: <MarketplacePage /> },
         { path: '/user1', element: <UserCartPage index={1} /> },
         { path: '/user2', element: <UserCartPage index={2} /> },
         { path: '/user3', element: <UserCartPage index={3} /> },
