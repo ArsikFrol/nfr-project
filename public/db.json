@@ -2,6 +2,24 @@
     "user": [
         {
             "id": 1,
+            "change": [
+                9,
+                10,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                1,
+                10,
+                100,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Animakid",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -90,6 +108,24 @@
         },
         {
             "id": 2,
+            "change": [
+                15,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                2,
+                10,
+                100,
+                1000
+            ],
             "userName": "Keepitreal",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -147,6 +183,24 @@
         },
         {
             "id": 3,
+            "change": [
+                9,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "DigiLab",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -210,6 +264,24 @@
         },
         {
             "id": 4,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "GravityOne",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -273,6 +345,24 @@
         },
         {
             "id": 5,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Juanie",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -336,6 +426,24 @@
         },
         {
             "id": 6,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "BlueWhale",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -399,6 +507,24 @@
         },
         {
             "id": 7,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Mr Fox",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -462,6 +588,24 @@
         },
         {
             "id": 8,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Shroomie",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -525,6 +669,24 @@
         },
         {
             "id": 9,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Robotica",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -588,6 +750,24 @@
         },
         {
             "id": 10,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "RustyRobot",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -651,6 +831,24 @@
         },
         {
             "id": 11,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Dotgu",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -714,6 +912,24 @@
         },
         {
             "id": 12,
+            "change": [
+                4,
+                12,
+                100,
+                1000
+            ],
+            "nftsSold": [
+                2,
+                13,
+                530,
+                1000
+            ],
+            "volume": [
+                1,
+                10,
+                100,
+                1000
+            ],
             "userName": "Ghiblier",
             "userImage": "https://cdn-icons-png.flaticon.com/128/2115/2115958.png",
             "totalSales": 34.53,
@@ -1210,25 +1426,25 @@
             "titleCollection": "Clone X",
             "collectionImg": {
                 "id1": {
-                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:1721/image/v1",
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:3994/image/v1",
                     "price": 1.63,
                     "highestBid": 0.33,
                     "titleNFT": "ID-1"
                 },
                 "id2": {
-                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:13159/image/v1",
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:9394/image/v1",
                     "price": 1.63,
                     "highestBid": 0.33,
                     "titleNFT": "ID-2"
                 },
                 "id3": {
-                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:12671/image/v1",
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:1301/image/v1",
                     "price": 1.63,
                     "highestBid": 0.33,
                     "titleNFT": "ID-3"
                 },
                 "id4": {
-                    "image": "https://api.reservoir.tools/redirect/tokens/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b:16229/image/v1",
+                    "image": "https://api.reservoir.tools/redirect/tokens/0x39ee2c7b3cb80254225884ca001f57118c8f21b6:1110/image/v1",
                     "price": 1.63,
                     "highestBid": 0.33,
                     "titleNFT": "ID-4"

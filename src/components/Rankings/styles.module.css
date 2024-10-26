@@ -1,0 +1,176 @@
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.2px;
+    color: white;
+    margin-top: 100px;
+}
+
+.desc {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: white;
+    margin-top: 10px;
+}
+
+.rowSort {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sort {
+    cursor: pointer;
+    width: 262px;
+    text-align: center;
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: rgba(133, 133, 132, 1);
+}
+
+.ActiveSort {
+    cursor: pointer;
+    width: 262px;
+    text-align: center;
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: white;
+
+    border-bottom: 1px solid rgba(133, 133, 132, 1);
+    padding-bottom: 10px;
+}
+
+.nameSortColumn {
+    margin-top: 60px;
+    padding: 12px 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Space Mono';
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(133, 133, 132, 1);
+}
+
+.artist {
+    width: 430px;
+
+    .elemArtist {
+        margin-right: 30px;
+    }
+}
+
+.Change {
+
+
+    width: 160px;
+    text-align: end;
+}
+
+.NFTsSold {
+
+    width: 160px;
+    text-align: end;
+}
+
+.Volume {
+
+    width: 160px;
+    text-align: end;
+}
+
+.rowUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1050px;
+    margin: 50px auto;
+    row-gap: 20px;
+}
+
+.user {
+    display: flex;
+    width: 1050px;
+    align-items: center;
+
+    background: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+
+    padding: 10px 0;
+
+    .index {
+        background: rgba(43, 43, 43, 1);
+        padding: 5px 0;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 30px;
+        text-align: center;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: rgba(133, 133, 132, 1);
+    }
+
+    >img {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+
+    .userName {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30.8px;
+        color: white;
+        width: 400px;
+    }
+
+    .countChange {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: rgba(0, 172, 79, 1);
+
+        width: 90px;
+        text-align: center;
+    }
+
+    .countNFTsSold {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: white;
+
+        margin-left: 50px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .countVolume {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: white;
+        margin-left: 80px;
+        width: 90px;
+        text-align: center;
+    }
+}

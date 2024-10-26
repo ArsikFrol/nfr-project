@@ -31,7 +31,7 @@ const HowItWorks = React.memo(function HowItWorks(props: Props) {
                 {
                     listCart.map((obj: cart) => {
                         return (
-                            <Link style={{ textDecoration: 'none' }} to={obj.title == 'Setup Your wallet' ? '/connectWallet' : ''}>
+                            <Link onClick={() => window.scroll({ top: 0 })} style={{ textDecoration: 'none' }} to={obj.title == 'Setup Your wallet' ? '/connectWallet' : obj.title == 'Start Earning' ? '/marketplace' : ''}>
                                 <div className={styles.cart} key={obj.id}>
                                     <img draggable='false' src={obj.image} alt="" />
                                     <div className={styles.titleCart}>{obj.title}</div>
