@@ -10,12 +10,14 @@ import HowInWorks from '../components/HowInWorks/HowItWorks'
 import WeeklyDigest from '../components/WeeklyDigest/WeeklyDigest'
 import MagicMashrooms from '../components/MagicMashrooms/MagicMashrooms'
 
-type Props = {}
+type Props = {
+    singUp: boolean
+}
 
 const MainPage = (props: Props) => {
     return (
         <div style={{ background: 'rgba(43, 43, 43, 1)', paddingBottom: '100px' }}>
-            <Header />
+            <Header singUp={props.singUp} />
             <DiscoverDigitalArt />
             <TrendingCollection />
             <TopCreators />

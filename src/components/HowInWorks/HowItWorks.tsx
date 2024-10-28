@@ -29,9 +29,9 @@ const HowItWorks = React.memo(function HowItWorks(props: Props) {
             <div className={styles.desc}>Find out how to get started</div>
             <div className={styles.rowCart}>
                 {
-                    listCart.map((obj: cart) => {
+                    listCart.map((obj: cart, index: number) => {
                         return (
-                            <Link onClick={() => window.scroll({ top: 0 })} style={{ textDecoration: 'none' }} to={obj.title == 'Setup Your wallet' ? '/connectWallet' : obj.title == 'Start Earning' ? '/marketplace' : ''}>
+                            <Link key={index} onClick={() => window.scroll({ top: 0 })} style={{ textDecoration: 'none' }} to={obj.title == 'Setup Your wallet' ? '/connectWallet' : obj.title == 'Start Earning' ? '/marketplace' : ''}>
                                 <div className={styles.cart} key={obj.id}>
                                     <img draggable='false' src={obj.image} alt="" />
                                     <div className={styles.titleCart}>{obj.title}</div>

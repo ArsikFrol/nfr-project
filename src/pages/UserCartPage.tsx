@@ -2,9 +2,11 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 import UserCart from '../components/UserCart/UserCart'
+import Header from '../components/Header/Header'
 
 type Props = {
-    index: number
+    index: number,
+    singUp: boolean
 }
 
 const UserCartPage = React.memo(function UserCartPage(props: Props) {
@@ -13,7 +15,6 @@ const UserCartPage = React.memo(function UserCartPage(props: Props) {
     const collections = useSelector((state: any) => state.allUser.collection)
 
     let newListUsers: any = []
-    let listCollection: any = []
 
     users.map((objUser: any) => {
         let collectionList: any = []
@@ -38,6 +39,7 @@ const UserCartPage = React.memo(function UserCartPage(props: Props) {
 
     return (
         <div style={{ background: 'rgba(43, 43, 43, 1)' }}>
+            <Header singUp={props.singUp} />
             <UserCart user={newListUsers[props.index - 1]} />
         </div>
     )

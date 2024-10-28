@@ -16,8 +16,6 @@ const Marketplace = React.memo(function Marketplace(props: Props) {
     let soldNFT = useSelector((state: any) => state.allUser.soldNFT)
     let soldCollection = useSelector((state: any) => state.allUser.soldCollection)
 
-    console.log(loupeString)
-
     React.useEffect(() => {
         if (activeSort == 'NFTs') {
             if (loupeString != '') {
@@ -76,7 +74,6 @@ const Marketplace = React.memo(function Marketplace(props: Props) {
                 <input type="text" spellCheck="false" placeholder='Search your favourite NFTs' onChange={(e) => setLoupeString(e.target.value)} value={loupeString} />
                 <img draggable='false' src={magnifying} />
             </div>
-
             <div className={styles.conteinerSort}>
                 <div className={styles.sort}>
                     <div onClick={() => click('NFTs')} className={activeSort == 'NFTs' ? styles.sortElem1 : styles.sortElem}>

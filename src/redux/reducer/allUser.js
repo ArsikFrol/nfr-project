@@ -1,6 +1,10 @@
-const defaultAllUser = [
-
-]
+const defaultAllUser = {
+    users: [],
+    collection: [],
+    soldCollection: [],
+    soldNFT: [],
+    createAccount: false
+}
 
 const allUser = (state = defaultAllUser, action) => {
     switch (action.type) {
@@ -16,6 +20,10 @@ const allUser = (state = defaultAllUser, action) => {
             return { ...state, soldNFT: action.payload }
         case 'SORT_LOUPE_COLLECTION':
             return { ...state, soldCollection: action.payload }
+        case 'ADD_USER':
+            return { ...state, users: [...state.users, action.payload] }
+        case 'CREATE_ACCOUNT':
+            return { ...state, createAccount: true }
         default:
             return { ...state }
     }

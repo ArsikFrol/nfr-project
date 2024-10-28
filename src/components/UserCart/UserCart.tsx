@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import { useDispatch } from 'react-redux'
 
-import Header from '../Header/Header'
 import UserCartCollection from './UserCartCollection'
 
 import bg from '../../images/bgUserCart.png'
@@ -38,7 +36,6 @@ const UserCart = React.memo(function UserCart(props: Props) {
 
     return (
         <div className={styles.wrapper}>
-            <Header />
             <img draggable='false' src={bg} style={{ width: '100%' }} />
             <img className={styles.userImage} draggable='false' src={props.user.userImage} />
             <div className={styles.desc}>
