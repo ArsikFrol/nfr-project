@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
 import { useDispatch, useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 import bgLeft from '../../images/CreateAccount/bgCreateAccount.png'
 import password from '../../images/CreateAccount/password.png'
@@ -124,7 +125,9 @@ const SingIn = React.memo(function SingIn(props: Props) {
                     }
                 </div>
                 <div className={emptyInputBool ? styles.none : styles.emptyInput}>Fill in all the fields</div>
-                <div onClick={() => clickAccountBtn()} className={styles.createAccountBtn}>{createAccount}</div>
+                <Link to={nameUser != '' && email != '' && password1 != '' && password2 != '' && password1 == password2 ? '/' : ''} style={{ textDecoration: 'none' }}>
+                    <div onClick={() => clickAccountBtn()} className={styles.createAccountBtn}>{createAccount}</div>
+                </Link>
             </div>
         </div>
     )

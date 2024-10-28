@@ -18,7 +18,7 @@ const MainPage = (props: Props) => {
     return (
         <div style={{ background: 'rgba(43, 43, 43, 1)', paddingBottom: '100px' }}>
             <Header singUp={props.singUp} />
-            <DiscoverDigitalArt />
+            <DiscoverDigitalArt singUp={props.singUp} />
             <TrendingCollection />
             <TopCreators />
             <BrowseCategories />

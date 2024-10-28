@@ -21,10 +21,13 @@ const TopCreators = (props: Props) => {
                     <div className={styles.desc}>Checkout Top Rated Creators on the NFT Marketplace</div>
 
                 </div>
-                <div className={styles.rightContent}>
-                    <img draggable='false' src={rocket} alt="rocket" />
-                    View Rankings
-                </div>
+                <Link onClick={() => window.scroll({ top: 0 })} to='/rankings' style={{ textDecoration: 'none' }}>
+                    <div className={styles.rightContent}>
+                        <img draggable='false' src={rocket} alt="rocket" />
+                        View Rankings
+                    </div>
+                </Link>
+
             </div>
             <div className={styles.rowCreators}>
                 {

@@ -7,7 +7,9 @@ import DiscoverDigitalArtImg from '../../images/DiscoverDigitalArtImg.png'
 import { useSelector } from 'react-redux'
 
 
-type Props = {}
+type Props = {
+    singUp: boolean,
+}
 
 interface statisticsInter {
     count: number,
@@ -29,7 +31,9 @@ const DiscoverDigitalArt = (props: Props) => {
             <div className={styles.leftContent}>
                 <div className={styles.title}>Discover <br /> digital art &<br /> Collect NFTs</div>
                 <div className={styles.desc}>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</div>
-                <div className={styles.btnGetStart}><img draggable="false" src={rocket} alt="rocket" /> Get Started</div>
+                <Link to={props.singUp ? '/marketplace' : '/singIn'} style={{ textDecoration: 'none' }}>
+                    <div className={styles.btnGetStart}><img draggable="false" src={rocket} alt="rocket" /> Get Started</div>
+                </Link>
                 <div className={styles.rowStatistics}>
                     {
                         listStatistics.map((obj: statisticsInter, index) => {
