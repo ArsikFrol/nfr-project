@@ -1,0 +1,179 @@
+.content {
+    width: 1050px;
+    margin: 50px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.1px;
+    color: white;
+}
+
+.data {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: rgba(133, 133, 132, 1);
+
+    margin-bottom: 30px;
+}
+
+.titleCreate {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: rgba(133, 133, 132, 1);
+
+    margin-bottom: 5px;
+    font-family: 'Space Mono';
+}
+
+.wrapperCreate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.nameUser {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: white;
+}
+
+.wrapperDesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleDesc {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: rgba(133, 133, 132, 1);
+
+    margin-bottom: 5px;
+    font-family: 'Space Mono';
+}
+
+.desc {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: white;
+
+    width: 605px;
+
+    margin-bottom: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+
+    .titleDetal {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35.2px;
+        color: rgba(133, 133, 132, 1);
+
+        margin-bottom: 5px;
+        font-family: 'Space Mono';
+    }
+
+    .elem {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 5px;
+
+        .textElem {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 35.2px;
+            color: white;
+        }
+    }
+}
+
+.titleTags {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: rgba(133, 133, 132, 1);
+
+    margin-bottom: 10px;
+    font-family: 'Space Mono';
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .elemTags {
+        background: rgba(59, 59, 59, 1);
+
+        padding: 12px 33px;
+        border-radius: 20px;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
+        color: white;
+    }
+}
+
+
+.rightContent {
+    background: rgba(59, 59, 59, 1);
+
+    height: 170px;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+.btnPlace {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: white;
+
+    width: 75px;
+    padding: 19px 80px;
+    border-radius: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+
+    background: rgba(162, 89, 255, 1);
+}
+
+.titleNFT {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    color: white;
+
+    width: 1050px;
+    margin: 150px auto 0;
+}
+
+.rowCollection {
+    width: 1050px;
+    margin: 50px auto;
+
+    display: grid;
+    justify-content: space-between;
+    row-gap: 20px;
+
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(1, 470px);
+}

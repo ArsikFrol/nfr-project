@@ -1,0 +1,51 @@
+.wrapper {
+
+    >span {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 45.6px;
+        color: white;
+
+        font-family: 'Space Mono';
+
+        padding: 10px 30px 10px;
+    }
+
+    .textTimer {
+        margin-right: 170px;
+
+        font-family: 'Space Mono';
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        color: white;
+
+        padding-bottom: 5px;
+        padding-left: 32px;
+    }
+
+    .nameCount {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        color: white;
+
+        padding-left: 43px;
+
+        font-family: 'Space Mono';
+
+        display: flex;
+        padding-bottom: 30px;
+
+        .Seconds {
+            margin-right: 25px;
+            margin-left: 23px;
+        }
+
+        .Hours {
+            margin-right: 30px;
+            margin-left: 40px;
+        }
+    }
+}

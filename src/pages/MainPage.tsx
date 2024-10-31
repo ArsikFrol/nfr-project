@@ -1,4 +1,5 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 import Header from '../components/Header/Header'
 import DiscoverDigitalArt from '../components/DiscoverDigitalArt/DiscoverDigitalArt'
@@ -9,6 +10,7 @@ import DiscoverMore from '../components/DiscoverMore/DiscoverMore'
 import HowInWorks from '../components/HowInWorks/HowItWorks'
 import WeeklyDigest from '../components/WeeklyDigest/WeeklyDigest'
 import MagicMashrooms from '../components/MagicMashrooms/MagicMashrooms'
+
 
 type Props = {
     singUp: boolean

@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './styles.module.css'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
+import CountdownElem from '../UI/CountdownElem'
 
 import bgMagic from '../../images/bgMagic.png'
 import eye from '../../images/eye.png'
-import Countdown from 'react-countdown'
-import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -30,15 +30,15 @@ const MagicMashrooms = React.memo(function MagicMashrooms(props: Props) {
                     })
                 }
                 <div className={styles.title}>Magic Mashrooms</div>
-                <div className={styles.btn}>
-                    <img draggable='false' src={eye} alt="" />
-                    See NFT
-                </div>
+                <Link onClick={() => window.scroll({ top: 0 })} to='/nft' style={{ textDecoration: 'none', width: '200px' }}>
+                    <div className={styles.btn}>
+                        <img draggable='false' src={eye} alt="" />
+                        See NFT
+                    </div>
+                </Link>
             </div>
             <div className={styles.rightContent}>
-                <div className={styles.textTimer}>Auction ends in:</div>
-                <Countdown date={Date.now() + 9000000} zeroPadTime={2} autoStart />
-                <div className={styles.nameCount}><span className={styles.Day}>Day</span><span className={styles.Hours}>Hours</span><span className={styles.Minutes}>Minutes</span><span className={styles.Seconds}>Seconds</span></div>
+                <CountdownElem />
             </div>
         </div>
     )

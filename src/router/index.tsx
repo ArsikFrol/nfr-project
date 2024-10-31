@@ -8,6 +8,7 @@ import UserCartPage from '../pages/UserCartPage'
 import SingInPage from '../pages/SingInPage'
 import MarketplacePage from '../pages/MarketplacePage'
 import RankingsPage from '../pages/RankingsPage'
+import MagicMashroomsPage from '../pages/MagicMashroomsPage'
 
 
 type Props = {}
@@ -22,6 +23,7 @@ const RouterComponent = (props: Props) => {
         { path: '/singIn', element: <SingInPage singUp={singUp} /> },
         { path: '/marketplace', element: <MarketplacePage singUp={singUp} /> },
         { path: '/rankings', element: <RankingsPage singUp={singUp} /> },
+        { path: '/nft', element: <MagicMashroomsPage singUp={singUp} /> },
         { path: '/user1', element: <UserCartPage index={1} singUp={singUp} /> },
         { path: '/user2', element: <UserCartPage index={2} singUp={singUp} /> },
         { path: '/user3', element: <UserCartPage index={3} singUp={singUp} /> },

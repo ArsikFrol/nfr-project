@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './styles.module.css'
 
 import { useSelector } from 'react-redux'
+import RankingsCart from './RankingsCart'
 
 type Props = {}
 
@@ -44,52 +45,24 @@ const Rankings = React.memo(function Rankings(props: Props) {
                 {activeSort == 'Today' ?
                     user0.map((obj: any, index: number) => {
                         return (
-                            <div className={styles.user} key={index}>
-                                <div className={styles.index}>{index + 1}</div>
-                                <img draggable='false' src={obj.userImage} />
-                                <div className={styles.userName}>{obj.userName}</div>
-                                <div className={styles.countChange}>{obj.change[0]} %</div>
-                                <div className={styles.countNFTsSold}>{obj.nftsSold[0]}</div>
-                                <div className={styles.countVolume}>{obj.volume[0]} ETN</div>
-                            </div>
+                            <RankingsCart index={index} obj={obj} count={0} key={index} />
                         )
                     })
                     : activeSort == 'This Week' ?
                         user1.map((obj: any, index: number) => {
                             return (
-                                <div className={styles.user} key={index}>
-                                    <div className={styles.index}>{index + 1}</div>
-                                    <img draggable='false' src={obj.userImage} />
-                                    <div className={styles.userName}>{obj.userName}</div>
-                                    <div className={styles.countChange}>{obj.change[1]} %</div>
-                                    <div className={styles.countNFTsSold}>{obj.nftsSold[1]}</div>
-                                    <div className={styles.countVolume}>{obj.volume[1]} ETN</div>
-                                </div>
+                                <RankingsCart index={index} obj={obj} count={1} key={index} />
                             )
                         })
                         : activeSort == 'This Month' ?
-                            user1.map((obj: any, index: number) => {
+                            user2.map((obj: any, index: number) => {
                                 return (
-                                    <div className={styles.user} key={index}>
-                                        <div className={styles.index}>{index + 1}</div>
-                                        <img draggable='false' src={obj.userImage} />
-                                        <div className={styles.userName}>{obj.userName}</div>
-                                        <div className={styles.countChange}>{obj.change[2]} %</div>
-                                        <div className={styles.countNFTsSold}>{obj.nftsSold[2]}</div>
-                                        <div className={styles.countVolume}>{obj.volume[2]} ETN</div>
-                                    </div>
+                                    <RankingsCart index={index} obj={obj} count={2} key={index} />
                                 )
                             }) : activeSort == 'All Time' ?
-                                user1.map((obj: any, index: number) => {
+                                user3.map((obj: any, index: number) => {
                                     return (
-                                        <div className={styles.user} key={index}>
-                                            <div className={styles.index}>{index + 1}</div>
-                                            <img draggable='false' src={obj.userImage} />
-                                            <div className={styles.userName}>{obj.userName}</div>
-                                            <div className={styles.countChange}>{obj.change[3]} %</div>
-                                            <div className={styles.countNFTsSold}>{obj.nftsSold[3]}</div>
-                                            <div className={styles.countVolume}>{obj.volume[3]} ETN</div>
-                                        </div>
+                                        <RankingsCart index={index} obj={obj} count={3} key={index} />
                                     )
                                 }) : <div></div>
                 }
