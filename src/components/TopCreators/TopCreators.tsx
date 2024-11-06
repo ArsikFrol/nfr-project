@@ -12,6 +12,7 @@ type Props = {}
 const TopCreators = (props: Props) => {
 
     const users = useSelector((state: any) => state.allUser.users)
+    users.sort((a: any, b: any) => b.totalSales - a.totalSales);
 
     return (
         <div className={styles.wrapper}>
@@ -34,13 +35,11 @@ const TopCreators = (props: Props) => {
                     users.slice(0, 12).map((objUser: any, index: number) => {
                         const to: string = `/user${objUser.id}`
                         return (
-                            <Link onClick={() => window.scroll({ top: 0 })} key={objUser.id} to={to} style={{ textDecoration: 'none', color: 'white' }}>
-                                <div className={styles.user}>
-                                    <div className={styles.indexUser}>{index + 1}</div>
-                                    <img draggable='false' className={styles.userImage} src={objUser.userImage} />
-                                    <div className={styles.userName}>{objUser.userName}</div>
-                                    <div className={styles.totalSales}>total Sales: <span className={styles.countTotal}>{objUser.totalSales} ETN</span></div>
-                                </div>
+                            <Link className={styles.user} onClick={() => window.scroll({ top: 0 })} key={objUser.id} to={to} style={{ textDecoration: 'none', color: 'white' }}>
+                                <div className={styles.indexUser}>{index + 1}</div>
+                                <img draggable='false' className={styles.userImage} src={objUser.userImage} />
+                                <div className={styles.userName}>{objUser.userName}</div>
+                                <div className={styles.totalSales}>total Sales: <span className={styles.countTotal}>{objUser.totalSales} ETN</span></div>
                             </Link>
                         )
                     })

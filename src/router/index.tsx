@@ -10,7 +10,6 @@ import MarketplacePage from '../pages/MarketplacePage'
 import RankingsPage from '../pages/RankingsPage'
 import MagicMashroomsPage from '../pages/MagicMashroomsPage'
 
-
 type Props = {}
 
 const RouterComponent = (props: Props) => {

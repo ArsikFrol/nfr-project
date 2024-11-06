@@ -2,12 +2,26 @@
     width: 1050px;
     margin: 100px auto;
     cursor: default;
+
+    @media (max-width: 1250px) {
+        width: 900px;
+
+        margin: 50px auto 50px;
+    }
 }
 
 .topContent {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
+
+
+    @media (max-width: 1250px) {
+        width: 700px;
+        margin: 0 auto;
+
+        padding-bottom: 30px;
+    }
 }
 
 .rightContent {
@@ -35,6 +49,13 @@
     font-weight: 600;
     line-height: 45.6px;
     color: white;
+
+    @media (max-width: 1250px) {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 39.2px;
+        color: white;
+    }
 }
 
 .desc {
@@ -42,6 +63,15 @@
     font-weight: 400;
     line-height: 35.2px;
     color: white;
+
+    @media (max-width: 1250px) {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: white;
+
+        width: 340px;
+    }
 }
 
 .rowCreators {
@@ -52,6 +82,21 @@
     justify-content: space-between;
     row-gap: 20px;
 
+
+
+    @media (max-width: 1250px) {
+        width: 700px;
+        margin: 0 auto;
+
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: repeat(3, 100px);
+        row-gap: 20px;
+
+        >a:nth-child(6)~* {
+            display: none;
+        }
+    }
+
     .user {
         background: rgba(59, 59, 59, 1);
         display: flex;
@@ -61,6 +106,14 @@
         border-radius: 20px;
 
         position: relative;
+
+        @media (max-width: 1250px) {
+            height: 100px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
 
         .indexUser {
             position: absolute;
@@ -75,6 +128,7 @@
             font-weight: 400;
             line-height: 22.4px;
             color: rgba(133, 133, 132, 1);
+            z-index: 10;
         }
 
         .userImage {
@@ -82,6 +136,17 @@
             height: 120px;
             background: rgba(59, 59, 59, 1);
             padding-top: 20px;
+
+            @media (max-width: 1250px) {
+                width: 60px;
+                height: 60px;
+
+                position: absolute;
+                z-index: 9;
+
+                top: 0;
+                left: 25px;
+            }
         }
 
         .userName {
@@ -93,6 +158,13 @@
             color: white;
 
             padding: 15px 0 5px;
+
+            @media (max-width: 1250px) {
+                position: absolute;
+
+                top: 0;
+                left: 100px;
+            }
         }
 
         .totalSales {
@@ -103,6 +175,14 @@
             line-height: 22.4px;
             color: rgba(133, 133, 132, 1);
             padding-bottom: 20px;
+
+
+            @media (max-width: 1250px) {
+                position: absolute;
+
+                top: 50px;
+                left: 100px;
+            }
 
             .countTotal {
                 background: rgba(59, 59, 59, 1);

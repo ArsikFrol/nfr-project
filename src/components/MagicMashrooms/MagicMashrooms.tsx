@@ -14,30 +14,31 @@ const MagicMashrooms = React.memo(function MagicMashrooms(props: Props) {
 
     return (
         <div className={styles.wrapper}>
-            <img draggable='false' className={styles.bg} src={bgMagic} alt="" />
-            <div className={styles.leftContent}>
-                {
-                    users.slice(0, 1).map((obj: any) => {
-                        const to: string = `/user${obj.id}`
-                        return (
-                            <Link onClick={() => window.scroll({ top: 0 })} key={obj.id} to={to} style={{ textDecoration: 'none', color: 'white', width: '160px', height: '55px', marginBottom: '20px' }}>
-                                <div className={styles.user}>
-                                    <img draggable='false' src={obj.userImage} alt="" />
-                                    <div className={styles.userName}>{obj.userName}</div>
-                                </div>
-                            </Link>
-                        )
-                    })
-                }
-                <div className={styles.title}>Magic Mashrooms</div>
-                <Link onClick={() => window.scroll({ top: 0 })} to='/nft' style={{ textDecoration: 'none', width: '200px' }}>
-                    <div className={styles.btn}>
-                        <img draggable='false' src={eye} alt="" />
-                        See NFT
+            <div className={styles.contentText}>
+                <div className={styles.leftContent}>
+                    {
+                        users.slice(0, 1).map((obj: any) => {
+                            const to: string = `/user${obj.id}`
+                            return (
+                                <Link onClick={() => window.scroll({ top: 0 })} key={obj.id} to={to} style={{ textDecoration: 'none', color: 'white', width: '160px', height: '55px', marginBottom: '20px' }}>
+                                    <div className={styles.user}>
+                                        <img draggable='false' src={obj.userImage} alt="" />
+                                        <div className={styles.userName}>{obj.userName}</div>
+                                    </div>
+                                </Link>
+                            )
+                        })
+                    }
+                    <div className={styles.title}>Magic Mashrooms</div>
+                    <div className={styles.content}>
+                        <Link onClick={() => window.scroll({ top: 0 })} to='/nft' style={{ textDecoration: 'none', width: '200px' }}>
+                            <div className={styles.btn}>
+                                <img draggable='false' src={eye} alt="" />
+                                See NFT
+                            </div>
+                        </Link>
                     </div>
-                </Link>
-            </div>
-            <div className={styles.rightContent}>
+                </div>
                 <CountdownElem />
             </div>
         </div>

@@ -3,6 +3,11 @@
     margin: 0 auto;
     background: rgba(59, 59, 59, 1);
     border-radius: 20px;
+
+    @media (max-width: 1250px) {
+        width: 700px;
+        margin-top: 70px;
+    }
 }
 
 .container {
@@ -11,12 +16,30 @@
     padding: 30px 0;
 
     display: flex;
-    align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 1250px) {
+        width: 650px;
+    }
+}
+
+.leftContent {
+
+    >img {
+        @media (max-width: 1250px) {
+            width: 300px;
+            height: 280px;
+        }
+    }
+
 }
 
 .rightContent {
     width: 425px;
+
+    @media (max-width: 1250px) {
+        width: 330px;
+    }
 }
 
 .title {
@@ -25,6 +48,13 @@
     line-height: 45.6px;
     color: white;
     padding-bottom: 10px;
+
+    @media (max-width: 1250px) {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 39.2px;
+        color: white;
+    }
 }
 
 .desc {
@@ -33,11 +63,22 @@
     line-height: 35.6px;
     color: white;
     padding-bottom: 20px;
+
+    @media (max-width: 1250px) {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: white;
+    }
 }
 
 .btn {
     width: 425px;
     position: relative;
+
+    @media (max-width: 1250px) {
+        width: 330px;
+    }
 
     >input {
         font-size: 16px;
@@ -51,6 +92,10 @@
 
         width: 185px;
         outline: none;
+
+        @media (max-width: 1250px) {
+            padding: 12px 95px 12px 20px;
+        }
     }
 }
 
@@ -78,5 +123,12 @@
     >img {
         width: 20px;
         height: 20px;
+    }
+
+    @media (max-width: 1250px) {
+        top: 70px;
+        left: 0;
+
+        padding: 12px 97px;
     }
 }

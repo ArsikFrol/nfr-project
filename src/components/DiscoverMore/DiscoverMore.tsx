@@ -59,8 +59,10 @@ const DiscoverMore = (props: Props) => {
                     <div className={styles.title}>Discover More NFTs</div>
                     <div className={styles.desc}>Explore new trending NFTs</div>
                 </div>
-                <div className={styles.btn}><img draggable='false' src={eye} alt="eye" />See all</div>
 
+                <Link onClick={() => window.scroll({ top: 0 })} to='/nft' style={{ textDecoration: 'none' }}>
+                    <div className={styles.btn}><img draggable='false' src={eye} alt="eye" />See all</div>
+                </Link>
             </div>
             <div className={styles.rowCart}>
                 {

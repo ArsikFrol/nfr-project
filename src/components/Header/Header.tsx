@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../images/logo.png'
 import titleLogo from '../../images/titleLogo.png'
 import userLogo from '../../images/userLogo.png'
+import nav from '../../images/nav.png'
 
 type Props = {
     singUp?: boolean
@@ -41,6 +42,9 @@ const Header = (props: Props) => {
                     })
                 }
                 <Link style={props.singUp ? { display: 'none' } : { textDecoration: 'none' }} to='/singIn'><div className={styles.btnSing}><img style={{ background: 'rgba(162, 89, 255, 1)' }} src={userLogo} alt="userLogo" />Sing Up</div></Link>
+            </div>
+            <div className={styles.nav}>
+                <img draggable='false' src={nav} />
             </div>
         </div>
     )

@@ -16,7 +16,7 @@ const RankingsCart = React.memo(function RankingsCart(props: Props) {
         <div className={styles.user}>
             <Link to={to} onClick={() => window.scroll({ top: 0 })} style={{ alignItems: 'center', gap: '10px', textDecoration: 'none', display: 'flex' }}>
                 <div className={styles.index}>{props.index + 1}</div>
-                <img style={{ width: '60px', height: '60px' }} draggable='false' src={props.obj.userImage} />
+                <img className={styles.userImage} draggable='false' src={props.obj.userImage} />
                 <div className={styles.userName}>{props.obj.userName}</div>
             </Link>
             <div className={styles.countChange}>{props.obj.change[props.count]} %</div>

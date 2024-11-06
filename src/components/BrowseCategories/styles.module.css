@@ -1,6 +1,11 @@
 .wrapper {
     width: 1050px;
     margin: 150px auto;
+
+    @media (max-width: 1250px) {
+        width: 900px;
+        margin: 150px auto 0;
+    }
 }
 
 .title {
@@ -9,6 +14,15 @@
     line-height: 45.6px;
     color: white;
     margin-bottom: 50px;
+
+    @media (max-width: 1250px) {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 39.2px;
+        color: white;
+
+        padding-left: 100px;
+    }
 }
 
 .rowCategori {
@@ -18,9 +32,24 @@
     justify-content: space-between;
     row-gap: 20px;
 
+    @media (max-width: 1250px) {
+        grid-template-columns: repeat(4, 150px);
+        grid-template-rows: repeat(2, 210px);
+
+        width: 700px;
+        margin: 0 auto;
+    }
+
     .categori {
         background: rgba(59, 59, 59, 1);
         border-radius: 20px;
+
+        @media (max-width: 1250px) {
+            >img {
+                width: 150px;
+                height: 142px;
+            }
+        }
 
         .titleCart {
             background: rgba(59, 59, 59, 1);
@@ -32,6 +61,13 @@
             font-weight: 600;
             line-height: 30.8px;
             color: white;
+
+            @media (max-width: 1250px) {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22.4px;
+                color: white;
+            }
         }
     }
 }
