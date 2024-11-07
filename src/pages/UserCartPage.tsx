@@ -40,7 +40,7 @@ const UserCartPage = React.memo(function UserCartPage(props: Props) {
     return (
         <div style={{ background: 'rgba(43, 43, 43, 1)' }}>
             <Header singUp={props.singUp} />
-            <UserCart user={newListUsers[props.index - 1]} />
+            {newListUsers[props.index - 1] ? <UserCart user={newListUsers[props.index - 1]} /> : ''}
         </div>
     )
 })

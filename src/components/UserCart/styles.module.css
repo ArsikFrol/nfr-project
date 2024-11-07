@@ -2,10 +2,34 @@
     position: relative;
 }
 
+.bg {
+    width: 100%;
+}
+
 .userImage {
     position: absolute;
     left: 80px;
     top: 280px;
+
+    @media (max-width: 1350px) {
+        left: 40px;
+        top: 230px;
+    }
+
+    @media (max-width: 1250px) {
+        left: 60px;
+        top: 250px;
+    }
+
+    @media (max-width: 1060px) {
+        left: 40px;
+        top: 220px;
+    }
+
+    @media (max-width: 1000px) {
+        left: 120px;
+        top: 210px;
+    }
 }
 
 .userImage {
@@ -22,7 +46,7 @@
 
     @media (max-width: 1250px) {
         flex-direction: column;
-
+        width: 700px;
     }
 
     .leftContent {
@@ -34,12 +58,27 @@
             color: white;
 
             padding-bottom: 40px;
+
+            @media (max-width: 1250px) {
+                font-size: 38pxpx;
+                font-weight: 600;
+                line-height: 45.6px;
+
+            }
+
+            @media (max-width: 1000px) {
+                margin-top: 50px;
+            }
         }
 
         .rowStat {
             display: flex;
             align-items: center;
             gap: 30px;
+
+            @media (max-width: 1250px) {
+                margin-top: 100px;
+            }
 
             >div {
                 display: flex;
@@ -53,6 +92,12 @@
 
                     padding-bottom: 5px;
                     height: 30px;
+
+                    @media (max-width: 1250px) {
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 35.2px;
+                    }
                 }
 
                 .titleStat {
@@ -62,6 +107,12 @@
                     color: white;
 
                     height: 30px;
+
+                    @media (max-width: 1250px) {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22.4px;
+                    }
                 }
             }
         }
@@ -78,6 +129,12 @@
                 color: rgba(133, 133, 132, 1);
 
                 font-family: 'Space Mono';
+
+                @media (max-width: 1250px) {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22.4px;
+                }
             }
 
             .bioText {
@@ -85,6 +142,12 @@
                 font-weight: 400;
                 line-height: 35.2px;
                 color: white;
+
+                @media (max-width: 1250px) {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22.4px;
+                }
             }
         }
 
@@ -98,6 +161,12 @@
 
                 font-family: 'Space Mono';
                 padding-bottom: 10px;
+
+                @media (max-width: 1250px) {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22.4px;
+                }
             }
 
             .imageLinks {
@@ -109,6 +178,11 @@
                     >img {
                         width: 32px;
                         height: 32px;
+
+                        @media (max-width: 1250px) {
+                            width: 24px;
+                            height: 24px;
+                        }
                     }
                 }
             }
@@ -120,6 +194,15 @@
         align-items: center;
         gap: 20px;
         height: 60px;
+
+        @media (max-width: 1250px) {
+            position: absolute;
+            top: 450px;
+        }
+
+        @media (max-width: 1050px) {
+            top: 430px;
+        }
 
         .code {
             cursor: pointer;
@@ -209,6 +292,10 @@
         align-items: center;
         gap: 20px;
 
+        @media (max-width: 1250px) {
+            width: 700px;
+        }
+
         .sortElem {
             cursor: pointer;
             width: 350px;
@@ -271,6 +358,11 @@
         row-gap: 20px;
         grid-template-columns: repeat(3, 330px);
         grid-template-rows: repeat(1, 470px);
+
+        @media (max-width: 1250px) {
+            grid-template-columns: repeat(2, 330px);
+            width: 700px;
+        }
     }
 }
 

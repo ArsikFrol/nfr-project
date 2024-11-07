@@ -27,7 +27,6 @@ type Props = {
 
 const UserCart = React.memo(function UserCart(props: Props) {
 
-
     const [follow, setFollow] = React.useState(props.user.cartUser.follow)
 
     const clickBtn = () => {
@@ -36,7 +35,7 @@ const UserCart = React.memo(function UserCart(props: Props) {
 
     return (
         <div className={styles.wrapper}>
-            <img draggable='false' src={bg} style={{ width: '100%' }} />
+            <img className={styles.bg} draggable='false' src={bg} />
             <img className={styles.userImage} draggable='false' src={props.user.userImage} />
             <div className={styles.desc}>
                 <div className={styles.leftContent}>
