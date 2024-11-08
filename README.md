@@ -1,3 +1,6 @@
+#Figma maket
+https://www.figma.com/design/pYLezccGqjYxg8djRax2y7/NFT-Marketplace?node-id=1647-17907&node-type=canvas&t=fCgkxbD6Hxuq76IG-0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
