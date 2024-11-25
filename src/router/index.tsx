@@ -8,8 +8,7 @@ type Props = {}
 const RouterComponent = React.memo(function RouterComponent(props: Props) {
 
     const router = createBrowserRouter([
-        { path: '*', element: <Header /> },/* 
-        {path: '', element: } */
+        { path: '*', element: <Header /> }
     ])
 
     return (
