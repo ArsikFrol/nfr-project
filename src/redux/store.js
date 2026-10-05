@@ -6,6 +6,11 @@ const rootReducer = combineReducers({
     allUser: allUcer
 })
 
-const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__())
+const composeEnhancers =
+  (typeof window !== "undefined" &&
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
+  ((f) => f);
 
-export default store
+const store = createStore(rootReducer, composeEnhancers());
+
+export default store;
